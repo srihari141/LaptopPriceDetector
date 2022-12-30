@@ -4,6 +4,7 @@ import numpy as np
 import math
 
 # import the model
+# Test Git is working or not
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
