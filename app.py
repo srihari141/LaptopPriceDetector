@@ -8,7 +8,7 @@ pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Predictor")
-
+#update for fun
 # brand
 company = st.selectbox('Brand',df['Company'].unique())
 
